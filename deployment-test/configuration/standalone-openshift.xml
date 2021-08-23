@@ -622,7 +622,7 @@
             <remote-destination host="${jboss.messaging.host:localhost}" port="${jboss.http.port:8080}"/>
         </outbound-socket-binding>
         <outbound-socket-binding name="mail-smtp">
-            <remote-destination host="localhost" port="26"/>
+            <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
 </server>
